@@ -1,0 +1,24 @@
+.button {
+  border: 1px solid red;
+  outline: wheat;
+  cursor: pointer;
+  width: 5rem;
+  padding: 1rem;
+  border-radius: 0px;
+
+  &--dark {
+    background-color: var(--dark);
+  }
+
+  &__text {
+    color: #eee;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    text-align: center;
+
+    &--dark {
+      background-color: (--dark);
+      color: var(--dark-text);
+    }
+  }
+}

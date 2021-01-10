@@ -1,0 +1,23 @@
+{
+  "name": "explane",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "node-sass": "node-sass scss/main.scss css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lMINERl/explane.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lMINERl/explane/issues"
+  },
+  "homepage": "https://github.com/lMINERl/explane#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
